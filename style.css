@@ -1,0 +1,176 @@
+/*Globales*/
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 2;
+}
+h1,
+h2,
+h3 {
+  margin: 0 0 2rem 0;
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 4rem;
+}
+h3 {
+  font-size: 3rem;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/*Utilidades*/
+
+.container {
+  max-width: 120rem;
+  width: 100%;
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+.container-info h2 {
+  color: transparent;
+  background: #e96443;
+  background: -webkit-linear-gradient(to right, #904e95, #e96443);
+  background: linear-gradient(to right, #904e95, #e96443);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.container-info {
+  height: auto;
+  font-size: 2rem;
+  line-height: 1.6;
+  padding: 5rem;
+}
+.container-info h2 {
+  font-size: 3rem;
+}
+@media (min-width: 768px) {
+  .container-info {
+    height: auto;
+    line-height: 2;
+    font-size: 2.4rem;
+    padding: 5rem;
+  }
+}
+
+/* Imagen 1 */
+
+.notavif.notwebp .imagen-principal {
+  background-image: url(img/imagen2.jpg);
+}
+.avif .imagen-principal {
+  background-image: url(img/imagen2.avif);
+}
+.webp .imagen-principal {
+  background-image: url(img/imagen2.webp);
+}
+.imagen-principal {
+  height: 60rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@media (min-width: 768px) {
+  .imagen-principal {
+    height: 70rem;
+  }
+}
+
+/* Imagen 2 */
+
+.notavif.notwebp .imagen2 {
+  background-image: url(img/imagen1.jpg);
+}
+.avif .imagen2 {
+  background-image: url(img/imagen1.avif);
+}
+.webp .imagen2 {
+  background-image: url(img/imagen1.webp);
+}
+.imagen2 {
+  height: 50rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+@media (min-width: 768px) {
+  .imagen2 {
+    height: 80vh;
+  }
+}
+/* texto Blanco */
+.texto-parallax {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: #fff;
+}
+/* Imagen 3 */
+.notavif.notwebp .imagen3 {
+  background-image: url(img/imagen3.jpg);
+}
+.avif .imagen3 {
+  background-image: url(img/imagen3.avif);
+}
+.webp .imagen3 {
+  background-image: url(img/imagen3.webp);
+}
+.imagen3 {
+  height: 40rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+@media (min-width: 786px) {
+  .imagen3 {
+    height: 80vh;
+  }
+}
+/* Texto con el fondo negro */
+.color-negro {
+  color: #fff;
+  background-color: #000;
+}
+/* Imagen 4 */
+.notavif.notwebp .imagen4 {
+  background-image: url(img/imagen4.jpg);
+}
+.avif .imagen4 {
+  background-image: url(img/imagen4.avif);
+}
+.webp .imagen4 {
+  background-image: url(img/imagen4.webp);
+}
+.imagen4 {
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
